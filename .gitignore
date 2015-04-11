@@ -1,0 +1,13 @@
+#.gititignore
+
+/.gradle
+/.metadata
+/.recommenders
+/.settings
+/bin
+/build
+/eclipse
+/lib
+.classpath
+.project
+
