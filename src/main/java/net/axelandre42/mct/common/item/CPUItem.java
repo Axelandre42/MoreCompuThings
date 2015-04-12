@@ -33,7 +33,7 @@ public class CPUItem extends Item {
 	@Override
 	public void registerIcons(IIconRegister reg) {
 		for (int i = 0; i < names.length; i++)
-			icons[i] = reg.registerIcon(MoreCompuThings.MODID + ":" + getUnlocalizedName().substring(5) + names[i]);
+			icons[i] = reg.registerIcon(MoreCompuThings.MODID + ":" + getUnlocalizedName().substring(5) + "_" + names[i]);
 	}
 	
 	@Override

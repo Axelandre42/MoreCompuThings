@@ -5,6 +5,8 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 public class CreativeTab extends CreativeTabs {
+	
+	public static CreativeTab INSTANCE;
 
 	public CreativeTab() {
 		super("tabMoreCompuThings");
