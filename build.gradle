@@ -18,8 +18,8 @@ buildscript {
 apply plugin: 'forge'
 
 version = "A0.01"
-group= "net.axelandre42.morecomputing" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "MoreComputing"
+group= "net.axelandre42.mct" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "MoreCompuThings"
 
 minecraft {
     version = "1.7.10-10.13.2.1291"
