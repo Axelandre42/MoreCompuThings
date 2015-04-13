@@ -15,7 +15,6 @@ public class CommonProxy {
 	public void preInit(FMLPreInitializationEvent e) {
 		Settings.INSTANCE = new Settings(new Configuration(e.getSuggestedConfigurationFile()));
 		CreativeTab.INSTANCE = new CreativeTab();
-		
 		Items.construct();
 	}
 	

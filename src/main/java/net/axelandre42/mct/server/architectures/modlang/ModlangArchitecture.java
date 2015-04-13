@@ -4,10 +4,14 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import li.cil.oc.api.machine.Architecture;
 import li.cil.oc.api.machine.ExecutionResult;
+import li.cil.oc.api.machine.Machine;
 
+@Architecture.Name(value = "Modlang")
 public class ModlangArchitecture implements Architecture {
 
-	public boolean initialized = false;
+	private boolean initialized = false;
+	
+	private Machine machine;
 	
 	@Override
 	public boolean isInitialized() {
