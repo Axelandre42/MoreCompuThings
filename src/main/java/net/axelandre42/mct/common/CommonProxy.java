@@ -3,7 +3,6 @@ package net.axelandre42.mct.common;
 import net.axelandre42.mct.CreativeTab;
 import net.axelandre42.mct.Settings;
 import net.axelandre42.mct.common.init.Items;
-import net.axelandre42.mct.common.item.CPUItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.config.Configuration;
 import cpw.mods.fml.common.event.FMLInitializationEvent;

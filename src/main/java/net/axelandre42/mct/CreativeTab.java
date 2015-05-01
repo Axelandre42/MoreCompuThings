@@ -16,7 +16,7 @@ public class CreativeTab extends CreativeTabs {
 	@Override
 	public Item getTabIconItem() {
 		// TODO Auto-generated method stub
-		return Items.itemCPU;
+		return null;
 	}
 
 }
